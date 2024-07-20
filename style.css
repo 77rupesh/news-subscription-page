@@ -1,0 +1,146 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+.container{
+width: 100%;
+height: 100%;
+}
+.container>.first
+{width: 100%;
+display: flex;
+flex-direction: row;
+background-color: #382850;
+padding: 0 30px;
+align-items: center;
+}
+.container>.first>.one{
+    width: 300px;
+}
+.container>.first>img{
+    margin-top: -10px;
+}
+.container>.first>nav{
+display: flex;
+align-items: center;
+height: 50px;
+
+}
+.container>.first>nav>ul{
+    display: flex;
+list-style: none;
+gap: 0 50px;
+color: white;
+}
+.container>.first>nav>button{
+height: 30px;
+width: 60px;
+margin-left: 30px;
+background-color: #12a0dd;
+border: none;
+color: white;
+border-radius: 5px;
+}
+.container>.first>a{
+
+color:white;
+font-size: 20px;
+margin-left: 200px;
+text-decoration: none;
+}
+.container>.main>.left>.left1>.image1{
+border: 3px solid rgba(94, 39, 130, 0.753);
+padding: 10px;
+border-radius: 10px;
+
+
+
+}
+
+.container>.main>.left>.left1>.image2{
+    border: 3px solid rgba(94, 39, 130, 0.753);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+    
+    }
+.container>.main>.left{
+padding: 5px;
+border-right: 2px solid grey;
+}
+.container>.main{
+display: flex;
+
+}
+.container>.main>.middle>h1{
+
+font-size: 20px;
+margin-left: 10px;
+margin-top: 20px;
+
+}
+.container>.main>.middle>h3{
+padding: 10px;
+font-size: 15px;
+
+
+}
+.container>.main>.middle>p{
+
+padding-left: 10px;
+font-size: 14px;
+font-weight: 500;
+
+}
+.container>.main>.middle>img{
+padding: 10px;
+
+}
+.container>.pop{
+width: 100%;
+height: 100%;
+position: absolute;
+background-color: rgba(128, 128, 128, 0.516);
+top: 0;
+}
+.container>.pop>.center{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+top: 30%;
+left: 40%;
+background-color: white;
+border-radius: 20px;
+box-shadow: 3px 3px 8px;
+text-align: center;
+padding: 20px;
+}
+.container>.pop>.center>h1{
+    font-size: 25px;
+    font-weight: 600;
+
+    
+}
+.container>.pop>.center>p{
+
+margin-top: 20px;
+
+}
+.container>.pop>.center>button{
+    margin-top: 25px;
+    padding: 10px 21px;
+    font-size: 15px;
+    background-color:blue;
+    border-radius: 10px;
+    border: none;
+    color: rgb(184, 177, 177);
+}
+.container>.pop>.center>button>span{
+    color: rgb(250, 248, 248);
+}
